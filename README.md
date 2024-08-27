@@ -65,9 +65,7 @@ Assets managed by the IT Department include:
 | --- | --- | --- |
 | **Least Privilege** | No | Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach |
 | **Disaster Recovery Plans** | No | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity. |
-| **Password Policies** | No | Employee password requirements are minimal, which could allow a threat actor to more easily access secure data/other assets via employee work equipment/the internal network.
-
- |
+| **Password Policies** | No | Employee password requirements are minimal, which could allow a threat actor to more easily access secure data/other assets via employee work equipment/the internal network. |
 | **Separation of Duties** | No | Needs to be implemented to reduce the possibility of fraud/access to critical data, since the company CEO currently runs day-to-day operations and manages the payroll. |
 | **Firewall** | Yes | The existing firewall blocks traffic based on an appropriately defined set of security rules. |
 | **Intrusion Detection System (IDS)** | No | The IT department needs an IDS in place to help identify possible intrusions by threat actors. |
@@ -77,8 +75,7 @@ Assets managed by the IT Department include:
 | **Encryption** | No | Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information. |
 | **Password Management System** | No | There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues. |
 | **Locks** | Yes | The store’s physical location, which includes the company’s main offices, store front, and warehouse of products, has sufficient locks. |
-| **CCTV Surveillance** | Yes | CCTV is installed/functioning at the store’s physical location.
- |
+| **CCTV Surveillance** | Yes | CCTV is installed/functioning at the store’s physical location. |
 | **Fire Detection/Prevention** | Yes | Botium Toys’ physical location has a functioning fire detection and prevention system. |
 
 #### Compliance Checklist
@@ -108,16 +105,12 @@ Assets managed by the IT Department include:
 | **Data Availability** | No | While data is available to all employees, authorization needs to be limited to only the individuals who need access to it to do their jobs. |
 
 ### 6. Recommendations
-- Suggestions for implementing controls and compliance best practices.
-- Importance of improving Botium Toys' security posture.
+Multiple controls need to be implemented to improve Botium Toys’ security posture and better ensure the confidentiality of sensitive information, including: Least Privilege, disaster recovery plans, password policies, separation of duties, an IDS, ongoing legacy system management, encryption, and a password management system.
+
+To address gaps in compliance, Botium Toys needs to implement controls such as Least Privilege, separation of duties, and encryption. The company also needs to properly classify assets, to identify additional controls that may need to be implemented to improve their security posture and better protect sensitive information.
+
 
 ### 7. Conclusion
-- Summary of findings.
-- The importance of regular security audits.
+In summary, the internal security audit conducted for Botium Toys revealed several critical gaps in the company's current security posture. Key findings include the lack of proper access controls, insufficient password policies, the absence of disaster recovery plans, and the need for encryption to safeguard sensitive customer information. The audit also highlighted areas of non-compliance with standards such as PCI DSS, GDPR, and SOC, which pose significant risks to the organization.
 
-## Files and Directories
-
-- **README.md**: Contains the project overview, scenario, scope and goals, and conclusions.
-- **RiskAssessment.md**: Detailed risk assessment report.
-- **ControlsComplianceChecklist.md**: Controls and compliance checklist with explanations.
-- **Recommendations.md**: Recommendations for improving security posture.
+The importance of regular security audits cannot be overstated. As businesses like Botium Toys expand their online presence, the potential for cyber threats increases exponentially. Regular audits help identify vulnerabilities before they can be exploited, ensuring that the organization's assets and data remain protected. Moreover, staying compliant with industry regulations through these audits not only mitigates the risk of costly fines but also helps build trust with customers and stakeholders. By prioritizing regular security audits, Botium Toys can strengthen its security posture, protect its critical assets, and support sustainable business growth.
