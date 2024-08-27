@@ -74,37 +74,38 @@ Assets managed by the IT Department include:
 | **Backups** | No | The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity. |
 | **Antivirus Software** | Yes | Antivirus software is installed and monitored regularly by the IT department. |
 | **Manual Monitoring for Legacy Systems** | No | The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/ policies related to intervention are unclear, which could place these systems at risk of a breach.  |
-| **Encryption** | No | Explanation |
-| **Password Management System** | No | Explanation |
-| **Locks** | Yes | Explanation |
-| **CCTV Surveillance** | Yes | Explanation |
-| **Fire Detection/Prevention** | Yes | Explanation |
+| **Encryption** | No | Encryption is not currently used; implementing it would provide greater confidentiality of sensitive information. |
+| **Password Management System** | No | There is no password management system currently in place; implementing this control would improve IT department/other employee productivity in the case of password issues. |
+| **Locks** | Yes | The store’s physical location, which includes the company’s main offices, store front, and warehouse of products, has sufficient locks. |
+| **CCTV Surveillance** | Yes | CCTV is installed/functioning at the store’s physical location.
+ |
+| **Fire Detection/Prevention** | Yes | Botium Toys’ physical location has a functioning fire detection and prevention system. |
 
 #### Compliance Checklist
 
 ##### PCI DSS
 | Best Practice | Yes/No | Explanation |
 | --- | --- | --- |
-| **Authorized Users** | No | Explanation |
-| **Secure Credit Card Information** | No | Explanation |
-| **Data Encryption Procedures** | No | Explanation |
-| **Secure Password Management** | No | Explanation |
+| **Authorized Users** | No | Currently, all employees have access to the company’s internal data. |
+| **Secure Credit Card Information** | No | Credit card information is not encrypted and all employees currently have access to internal data, including customers’ credit card information. |
+| **Data Encryption Procedures** | No | The company does not currently use encryption to better ensure the confidentiality of customers’ financial information. |
+| **Secure Password Management** | No | Password policies are nominal and no password management system is currently in place. |
 
 ##### GDPR
 | Best Practice | Yes/No | Explanation |
 | --- | --- | --- |
-| **EU Customer Data Security** | No | Explanation |
-| **72-Hour Breach Notification** | Yes | Explanation |
-| **Data Classification and Inventory** | No | Explanation |
-| **Privacy Policies** | Yes | Explanation |
+| **EU Customer Data Security** | No | The company does not currently use encryption to better ensure the confidentiality of customers’ financial information. |
+| **72-Hour Breach Notification** | Yes | There is a plan to notify E.U. customers within 72 hours of a data breach. |
+| **Data Classification and Inventory** | No | Current assets have been inventoried/listed, but not classified. |
+| **Privacy Policies** | Yes | Privacy policies, procedures, and processes have been developed and enforced among IT team members and other employees, as needed. |
 
 ##### SOC Type 1, Type 2
 | Best Practice | Yes/No | Explanation |
 | --- | --- | --- |
-| **User Access Policies** | No | Explanation |
-| **PII/SPII Confidentiality** | No | Explanation |
-| **Data Integrity** | Yes | Explanation |
-| **Data Availability** | No | Explanation |
+| **User Access Policies** | No | Controls of Least Privilege and separation of duties are not currently in place; all employees have access to internally stored data. |
+| **PII/SPII Confidentiality** | No | Encryption is not currently used to better ensure the confidentiality of PII/SPII. |
+| **Data Integrity** | Yes | Data integrity is in place. |
+| **Data Availability** | No | While data is available to all employees, authorization needs to be limited to only the individuals who need access to it to do their jobs. |
 
 ### 6. Recommendations
 - Suggestions for implementing controls and compliance best practices.
