@@ -6,12 +6,7 @@ This project involves conducting an internal security audit for a fictional comp
 
 ## Project Structure
 
-### 1. Introduction
-- Brief description of the project.
-- Importance of internal security audits.
-- Overview of the fictional company, Botium Toys.
-
-### 2. Scenario
+### 1. Scenario
 This scenario is based on a fictional company:
 
 Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location, which serves as their main office, a storefront, and warehouse for their products. However, Botium Toy’s online presence has grown, attracting customers in the U.S. and abroad. As a result, their information technology (IT) department is under increasing pressure to support their online market worldwide. 
@@ -22,12 +17,12 @@ The IT manager starts by implementing the National Institute of Standards and Te
 
 Your task is to review the IT manager’s scope, goals, and risk assessment report. Then, perform an internal audit by completing a controls and compliance checklist. 
 
-### 3. Scope and Goals
+### 2. Scope and Goals
 - **Scope of the audit**: The scope of this audit is defined as the entire security program at Botium Toys. This includes their assets like employee equipment and devices, their internal network, and their systems. You will need to review the assets Botium Toys has and the controls and compliance practices they have in place.
 
 - **Goals**: Assess existing assets and complete the controls and compliance checklist to determine which controls and compliance best practices that need to be implemented to  improve Botium Toys’ security posture.
 
-### 4. Current assets
+### 3. Current assets
 Assets managed by the IT Department include: 
 - On-premises equipment for in-office business needs  
 - Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
@@ -39,7 +34,7 @@ Assets managed by the IT Department include:
 - Legacy system maintenance: end-of-life systems that require human monitoring 
 
 
-### 5. Risk Assessment
+### 4. Risk Assessment
 - **Detailed risk assessment report.**
   - **Risk description**: Currently, there is inadequate management of assets. Additionally, Botium Toys does not have all of the proper controls in place and may not be fully compliant with U.S. and international regulations and standards.
     
@@ -47,10 +42,10 @@ Assets managed by the IT Department include:
     
   - **Risk score**: On a scale of 1 to 10, the risk score is 8, which is fairly high. This is due to a lack of controls and adherence to compliance best practices.
     
-  - **Additional comments**: The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure. Review the following bullet points for specific details:
+**Additional comments**: The potential impact from the loss of an asset is rated as medium, because the IT department does not know which assets would be at risk. The risk to assets or fines from governing bodies is high because Botium Toys does not have all of the necessary controls in place and is not fully adhering to best practices related to compliance regulations that keep critical data private/secure. Review the following bullet points for specific details:
 
 - Currently, all Botium Toys employees have access to internally stored data and may be able to access cardholder data and customers’ PII/SPII.
-- Encryption is not currently used to ensure confidentiality of customers’ credit card information that is accepted, processed, transmitted, and stored locally in the company’s internal database. 
+-- Encryption is not currently used to ensure confidentiality of customers’ credit card information that is accepted, processed, transmitted, and stored locally in the company’s internal database. 
 - Access controls pertaining to least privilege and separation of duties have not been implemented.
 - The IT department has ensured availability and integrated controls to ensure data integrity.
 - The IT department has a firewall that blocks traffic based on an appropriately defined set of security rules.
@@ -63,57 +58,59 @@ Assets managed by the IT Department include:
 - While legacy systems are monitored and maintained, there is no regular schedule in place for these tasks and intervention methods are unclear.
 - The store’s physical location, which includes Botium Toys’ main offices, store front, and warehouse of products, has sufficient locks, up-to-date closed-circuit television (CCTV) surveillance, as well as functioning fire detection and prevention systems.
 
-### 6. Controls and Compliance Checklist
+### 5. Controls and Compliance Checklist
 
 #### Controls Assessment Checklist
 | Control | Yes/No | Explanation |
 | --- | --- | --- |
-| **Least Privilege** | [Yes/No] | Explanation |
-| **Disaster Recovery Plans** | [Yes/No] | Explanation |
-| **Password Policies** | [Yes/No] | Explanation |
-| **Separation of Duties** | [Yes/No] | Explanation |
-| **Firewall** | [Yes/No] | Explanation |
-| **Intrusion Detection System (IDS)** | [Yes/No] | Explanation |
-| **Backups** | [Yes/No] | Explanation |
-| **Antivirus Software** | [Yes/No] | Explanation |
-| **Manual Monitoring for Legacy Systems** | [Yes/No] | Explanation |
-| **Encryption** | [Yes/No] | Explanation |
-| **Password Management System** | [Yes/No] | Explanation |
-| **Locks** | [Yes/No] | Explanation |
-| **CCTV Surveillance** | [Yes/No] | Explanation |
-| **Fire Detection/Prevention** | [Yes/No] | Explanation |
+| **Least Privilege** | No | Currently, all employees have access to customer data; privileges need to be limited to reduce the risk of a breach |
+| **Disaster Recovery Plans** | No | There are no disaster recovery plans in place. These need to be implemented to ensure business continuity. |
+| **Password Policies** | No | Employee password requirements are minimal, which could allow a threat actor to more easily access secure data/other assets via employee work equipment/the internal network.
+
+ |
+| **Separation of Duties** | No | Needs to be implemented to reduce the possibility of fraud/access to critical data, since the company CEO currently runs day-to-day operations and manages the payroll. |
+| **Firewall** | Yes | The existing firewall blocks traffic based on an appropriately defined set of security rules. |
+| **Intrusion Detection System (IDS)** | No | The IT department needs an IDS in place to help identify possible intrusions by threat actors. |
+| **Backups** | No | The IT department needs to have backups of critical data, in the case of a breach, to ensure business continuity. |
+| **Antivirus Software** | Yes | Antivirus software is installed and monitored regularly by the IT department. |
+| **Manual Monitoring for Legacy Systems** | No | The list of assets notes the use of legacy systems. The risk assessment indicates that these systems are monitored and maintained, but there is not a regular schedule in place for this task and procedures/ policies related to intervention are unclear, which could place these systems at risk of a breach.  |
+| **Encryption** | No | Explanation |
+| **Password Management System** | No | Explanation |
+| **Locks** | Yes | Explanation |
+| **CCTV Surveillance** | Yes | Explanation |
+| **Fire Detection/Prevention** | Yes | Explanation |
 
 #### Compliance Checklist
 
 ##### PCI DSS
 | Best Practice | Yes/No | Explanation |
 | --- | --- | --- |
-| **Authorized Users** | [Yes/No] | Explanation |
-| **Secure Credit Card Information** | [Yes/No] | Explanation |
-| **Data Encryption Procedures** | [Yes/No] | Explanation |
-| **Secure Password Management** | [Yes/No] | Explanation |
+| **Authorized Users** | No | Explanation |
+| **Secure Credit Card Information** | No | Explanation |
+| **Data Encryption Procedures** | No | Explanation |
+| **Secure Password Management** | No | Explanation |
 
 ##### GDPR
 | Best Practice | Yes/No | Explanation |
 | --- | --- | --- |
-| **EU Customer Data Security** | [Yes/No] | Explanation |
-| **72-Hour Breach Notification** | [Yes/No] | Explanation |
-| **Data Classification and Inventory** | [Yes/No] | Explanation |
-| **Privacy Policies** | [Yes/No] | Explanation |
+| **EU Customer Data Security** | No | Explanation |
+| **72-Hour Breach Notification** | Yes | Explanation |
+| **Data Classification and Inventory** | No | Explanation |
+| **Privacy Policies** | Yes | Explanation |
 
 ##### SOC Type 1, Type 2
 | Best Practice | Yes/No | Explanation |
 | --- | --- | --- |
-| **User Access Policies** | [Yes/No] | Explanation |
-| **PII/SPII Confidentiality** | [Yes/No] | Explanation |
-| **Data Integrity** | [Yes/No] | Explanation |
-| **Data Availability** | [Yes/No] | Explanation |
+| **User Access Policies** | No | Explanation |
+| **PII/SPII Confidentiality** | No | Explanation |
+| **Data Integrity** | Yes | Explanation |
+| **Data Availability** | No | Explanation |
 
-### 7. Recommendations
+### 6. Recommendations
 - Suggestions for implementing controls and compliance best practices.
 - Importance of improving Botium Toys' security posture.
 
-### 8. Conclusion
+### 7. Conclusion
 - Summary of findings.
 - The importance of regular security audits.
 
